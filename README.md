@@ -16,6 +16,13 @@ capable of managing and executing multiple tasks concurrently.
 - C-based shell foundation
 - macOS development environment
 
+## Week 2 Features
+
+- Dynamic command input
+- Memory allocation using malloc()
+- Automatic buffer expansion using realloc()
+- Proper memory cleanup using free()
+ 
 ## Project Goal
 
 The final goal of this project is to develop a shell that can execute
