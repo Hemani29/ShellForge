@@ -4,6 +4,7 @@
 
 #include "../include/shell.h"
 #include "../include/input.h"
+#include "../include/process.h"
 
 int main()
 {
@@ -24,7 +25,12 @@ int main()
             free(line);
             break;
         }
-
+         if (strcmp(line, "process") == 0)
+        {
+              demonstrate_process_creation();
+              free(line);
+              continue;
+        }
         if (strlen(line) != 0)
         {
             printf("You entered : %s\n", line);
