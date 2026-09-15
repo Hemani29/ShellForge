@@ -5,6 +5,7 @@
 #include "../include/shell.h"
 #include "../include/input.h"
 #include "../include/process.h"
+#include "../include/pipe.h"
 
 int main()
 {
@@ -19,7 +20,19 @@ int main()
         printf("myshell> ");
 
         line = read_line();
+if (strcmp(line, "pipe") == 0)
+{
+    free(line);
+    demonstrate_producer_consumer();
+    continue;
+}
 
+if (strcmp(line, "ls-grep") == 0)
+{
+    free(line);
+    demonstrate_ls_grep_pipe();
+    continue;
+}
         if (strcmp(line, "exit") == 0)
         {
             free(line);

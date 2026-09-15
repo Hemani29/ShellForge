@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -g -Iinclude
-SRC = src/main.c src/input.c src/process.c
+SRC = src/main.c src/input.c src/process.c src/pipe.c src/ls_grep_pipe.c
 TARGET = bin/shellforge
 
 all: $(TARGET)
