@@ -22,6 +22,28 @@ capable of managing and executing multiple tasks concurrently.
 - Memory allocation using malloc()
 - Automatic buffer expansion using realloc()
 - Proper memory cleanup using free()
+
+## Week 3 Features
+
+- Process creation using fork()
+- Parent-child process relationship
+- Process synchronization using wait()
+- Display of parent and child process IDs
+
+## Week 4 Features
+
+- Zombie process demonstration
+- Child process termination handling
+- Process status observation
+- Zombie process cleanup using wait()
+
+## Week 5 Features
+
+- Inter-process communication using pipes
+- Producer-consumer communication
+- Data transfer between processes
+- ls | grep pipeline demonstration
+- Pipe-based command execution
  
 ## Project Goal
 
